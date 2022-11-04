@@ -397,6 +397,17 @@
     cursor: pointer;
     display: inline-block;
   }
+  .code-editor-btn {
+    background-image: linear-gradient(to right, #ffcccc 0%, #ceffff 100%);
+    background-size: 100% auto;
+    width: auto;
+    height: auto;
+    margin-left: 1px;
+    border-radius: 5px;
+  }
+  .code-editor-btn:hover {
+    background-image: linear-gradient(to right, #ff9a9a 0%, #a4ffff 100%);
+  }
   .b-social-1 {
     background-color: #b700ff00;
   }
@@ -608,3 +619,9 @@
     height: 500px;
     border-style: solid;
   }
+
+.xcjeditor-descript {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
