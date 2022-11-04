@@ -621,7 +621,29 @@
   }
 
 .xcjeditor-descript {
+  color:rgb(200, 255, 253);
+  align-items: left;
   display: flex;
-  flex-direction: column;
-  margin-left: 10%;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.xcjeditor-descript-img {
+  margin-left: 100px;
+}
+@media only screen and (max-width: 900px) {
+  .xcjeditor-descript-img {
+    margin-left: 20px;
+  }
+@media only screen and (max-width: 600px) {
+  .xcjeditor-descript-img {
+    margin-left: -20px;
+  }
+  .xcjeditor-descript {
+    flex-direction: column;
+  }
 }
